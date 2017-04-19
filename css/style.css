@@ -1,0 +1,340 @@
+/*
+==============
+	GENERAL
+==============
+*/
+@import 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:200i,400,700';
+
+body{
+	font-family: 'Source Sans Pro', sans-serif;	
+}
+/*
+==============
+	BANNER
+==============
+*/
+.banner{
+	height: 100vh;
+	background-image: url('../img/bg2maybe3.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+.main-line{
+	margin-top: 150px;
+	margin-bottom: 0;
+	color: #FA5C65;
+	font-size: 4em;
+	font-weight: 700;
+    text-shadow: 2px 2px #000000;
+
+}
+.occupation{
+	margin-top: 10px;
+	color: white;
+    font-size: 2em;
+    font-weight: 700;
+    text-shadow: 2px 2px #000000;	
+}
+.sub-line{
+	margin-top: 10px;
+	margin-bottom: 25px;
+	color: white;
+    font-size: 2.5em;
+    font-weight: 700;
+    text-shadow: 2px 2px #000000;
+}
+/* navbar */
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+}
+/* title */
+.navbar-default .navbar-brand {
+    color: #FA5C65;
+    font-size: 2em;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #FC8086;
+}
+/* link */
+.navbar-default .navbar-nav > li > a {
+    color: white;
+    font-size: 1.2em;
+    font-weight: 700;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #FA5C65;
+}
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #FA5C65 ;
+    background-color: transparent;
+} 
+.navbar-default .navbar-nav > .open > a, 
+.navbar-default .navbar-nav > .open > a:hover, 
+.navbar-default .navbar-nav > .open > a:focus {
+    color: #FA5C65;
+    background-color: #FA5C65;
+}
+/* mobile version */
+.navbar-default .navbar-toggle {
+    border-color: #FA5C65;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #FA5C65;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #FA5C65;
+}
+.btn-secondary{
+	background-color: transparent;
+	color: white;
+	font-weight: 700;
+	border-width: 3px;
+	border-color: white;
+}
+.btn-secondary:hover{
+	background-color: #FA5C65;
+	border-color: #FA5C65;
+	color: white;
+}
+.btn-cta{
+	background-color: #FA5C65;
+	border-color: #FA5C65;
+	color: white;
+	font-weight: 700;
+	border-width: 3px;
+}
+.btn-cta:hover{
+	background-color: #FC8086;
+	border-color: #FC8086;
+	color: white;
+}
+/*
+==============
+	ABOUT
+==============
+*/
+.info-row{
+	margin-top: 40px;
+	margin-bottom: 90px;
+}
+
+.info{
+	background-color: rgb(210,210,210);
+}
+.info-name{
+	padding-top: 150px;
+	margin-bottom: 0;
+}
+.info-occupation{
+	margin-top: 7px;
+	margin-bottom: 0;
+}
+.info-phone{
+	margin-top: 7px;
+	margin-bottom: 0;
+}
+.info-email{
+	margin-top: 7px;
+	margin-bottom: 0;
+}
+.social-row{
+	margin-top: 20px;
+	margin-bottom: 40px;
+	padding-bottom: 30px;
+}
+.social-link{
+	margin-right: 5px;
+	margin-left: 5px;
+}
+.info-text{
+	font-size: 1.4em;
+	color: rgb(100, 100, 100);
+}
+.lead{
+	font-weight: 200;
+	font-style: italic;
+	margin-bottom: 0;
+	margin-left: 80px;
+	margin-top: 80px;
+}
+.follow{
+	margin-top: 0;
+	color: rgb(110, 110, 110);
+}
+.follow-span{
+	color: #FA5C65; 
+	font-weight: 700; 
+	font-size: 1.7em;	
+}
+
+/*
+==============
+	SERVICES
+==============
+*/
+.pane{
+	margin-top: 25px;
+	background-color: #FA5C65;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-blend-mode: luminosity;	
+	height: 200px;
+	width: 100%;
+}
+.pane:hover{
+	background-color: #FDACB0;
+}
+.pane1{
+	background-image: url('../img/stock7blurred.jpg');
+}
+.pane2{
+	background-image: url('../img/stock2blurred.jpg');	
+}
+.pane3{
+	background-image: url('../img/stock5blurred.jpg');	
+}
+.pane4{
+	background-image: url('../img/stock4blurred.jpg');
+}
+.pane5{
+	background-image: url('../img/stock3blurred.jpg');
+}
+.pane6{
+	background-image: url('../img/stock1blurred.jpg');
+}
+.pane7{
+	background-image: url('../img/stock6blurred.jpg');
+}
+.pane-img{
+	padding-top: 35px;
+}
+.pane-text{
+	color: white;
+	text-shadow: 1px 1px #000000;
+}
+
+/*
+==============
+	LOCATION
+==============
+*/
+.map-row{
+	margin-top: 120px;
+}
+
+/*
+==============
+	CONTACT
+==============
+*/
+.contact-row{
+	margin-top: 70px;
+}
+
+.form-row{
+	margin-top: 80px;
+	margin-bottom: 40px;
+}
+.form-title{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 1.4em;		
+}
+.divider-plate{
+	margin-bottom: 20px;
+}
+.phone-row{
+	margin-bottom: 100px;
+}
+.phone-number{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 1.8em;	
+}
+/*
+==============
+	FOOTER
+==============
+*/
+.footer{
+	background-color: #FA5C65;
+}
+a{
+  color: inherit; /* blue colors for links too */
+  text-decoration: inherit; /* no underline */
+}
+a:hover{
+  color: inherit; /* blue colors for links too */
+  text-decoration: inherit; /* no underline */
+
+}
+.footer-nav{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.footer-nav-item{
+	margin-top: 3px;
+	margin-bottom: 3px;
+	margin-left: 8px;
+	margin-right: 8px;
+	color: white;
+	list-style: none;
+	float: left;
+}
+.disclaimer{
+	color: white;
+}
+
+
+
+
+.service-expanded-container{
+	margin-top: 0;
+	margin-bottom: 50px;
+}
+
+.service-expanded{
+	background-color: #FA5C65;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-blend-mode: luminosity;	
+	height: 150px;
+	margin-top: 40px;
+}
+
+.service-expanded-header{
+	color: white;
+	font-weight: 700;
+	margin-top: 50px;
+}
+.service-expanded-text{
+	margin-top: 15px;
+	font-size: 1.4em;
+	color: rgb(100, 100, 100);	
+}
+
+.se1{
+	background-image: url('../img/stock7blurred.jpg');
+}
+.se2{
+	background-image: url('../img/stock2blurred.jpg');	
+}
+.se3{
+	background-image: url('../img/stock5blurred.jpg');	
+}
+.se4{
+	background-image: url('../img/stock4blurred.jpg');
+}
+.se5{
+	background-image: url('../img/stock3blurred.jpg');
+}
+.se6{
+	background-image: url('../img/stock1blurred.jpg');
+}
+.se7{
+	background-image: url('../img/stock6blurred.jpg');
+}
